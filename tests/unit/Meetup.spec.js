@@ -10,12 +10,24 @@ describe('Meetup.vue', () => {
     });
    
     const expected = "Workout";
-    const actual = wrapper.find(".hej").text();
+    const actual = wrapper.find(".name").text();
    
 expect(actual).toMatch(expected);
   });
-});
 
+it('Should display the upcomming meetups places when you enter the site', () => {
+  const wrapper = shallowMount(Meetup, {
+    propsData: {
+      meetup: fakeData()
+    }
+  });
+ 
+  const expected = "Hammarby";
+  const actual = wrapper.find(".place").text();
+ 
+expect(actual).toMatch(expected);
+});
+});
 
 function fakeData() {
     let meetup = 
