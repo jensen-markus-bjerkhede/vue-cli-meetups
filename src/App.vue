@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link>
-    <router-view: meetups="meetups" />
+    <router-view :meetups="meetups" />
   </div>
 </template>
 <script>

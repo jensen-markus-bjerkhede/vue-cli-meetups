@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-       "name": "Workout",
-       "place": "Hammarby"
+        "name": "Workout",
+        "place": "Hammarby"
     },
     {
         "id": 2,
-       "name": "Dinner",
-       "place": "Näset"
+        "name": "Dinner",
+        "place": "Näset"
     }
 ]

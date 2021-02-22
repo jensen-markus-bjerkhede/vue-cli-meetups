@@ -1,5 +1,4 @@
 <template>
-<h2>något</h2>
   <Meetup v-for="meetup in meetups" :key="meetup.id" :meetup="meetup" />
 </template>
 
@@ -12,6 +11,7 @@ export default {
     meetups: Array,
   },
 };
+
 </script>
 
 <style>
