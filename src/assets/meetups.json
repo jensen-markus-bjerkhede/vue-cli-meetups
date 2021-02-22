@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+       "name": "Workout",
+       "place": "Hammarby"
+    },
+    {
+        "id": 2,
+       "name": "Dinner",
+       "place": "Näset"
+    }
+]

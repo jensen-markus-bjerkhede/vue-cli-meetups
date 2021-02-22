@@ -1,25 +1,30 @@
 <template>
-    <main>
-        <h1> Vue app that can run in a Docker container </h1>
-        <p>It's the Dockerfile that does it!</p>
-    </main>
+  <div id="nav">
+    <router-link to="/">Home</router-link>
+    <router-view: meetups="meetups" />
+  </div>
 </template>
-
 <script>
-
+import meetups from "@/assets/meetups.json";
 export default {
-    name: 'App',
-    components: { }
-}
+  name: "App",
+  data() {
+    return {
+      meetups: meetups,
+    };
+  },
+
+  components: {},
+};
 </script>
 
 <style>
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
 </style>

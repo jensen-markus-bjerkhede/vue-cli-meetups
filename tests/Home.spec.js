@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
-import Meetups from "../../src/components/Meetups";
+import Home from "../../src/components/Home";
 
-describe('Meetups.vue', () => {
+describe('Home.vue', () => {
   it('Should display the upcomming meetups when you enter the site', () => {
-
+    
   }
