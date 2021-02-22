@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ meetup.name }}</h1>
+  <h1 class="hej">{{ meetup.name }}</h1>
   <h1>{{ meetup.place }}</h1>
 </template>
 

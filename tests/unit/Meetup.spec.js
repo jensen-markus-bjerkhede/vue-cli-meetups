@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils'
-import Meetup from "@/components/Meetup";
+import Meetup from '@/components/Meetup.vue';
 
 describe('Meetup.vue', () => {
   it('Should display the upcomming meetups names when you enter the site', () => {
@@ -11,12 +11,11 @@ describe('Meetup.vue', () => {
    
     const expected = "Workout";
     const actual = wrapper.find(".hej").text();
-
-    console.log(expected)
    
 expect(actual).toMatch(expected);
   });
 });
+
 
 function fakeData() {
     let meetup = 
